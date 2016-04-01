@@ -1,7 +1,7 @@
 JSON Schema to Java Convertor
 =============================
 
-Minimal Maven Java project that uses jsonschema2pojo to generate Java classes from JSON Schema.
+Minimal Maven Java project that uses [jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) to generate Java classes from JSON Schema.
 
 The ```./src/main/resources/json-schema``` directory contains an example JSON Schema file.
 
