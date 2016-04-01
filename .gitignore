@@ -9,7 +9,7 @@
 .pydevproject
 .metadata
 .idea
-.iml
+*.iml
 
 # Exclude build directory
 target/*
