@@ -9,7 +9,7 @@ The ```./src/main/resources/json``` directory contains an example instance.
 
 The main class ```exp.jsonschema2java.JSONSchema2Java``` contains an example of reading a JSON instance and printing out its contents.
 
-#### Building  and Running
+#### Building and Running
 
 To build this library you must have the following items installed:
 
@@ -23,7 +23,7 @@ Get a copy of the latest code:
 
 Change into the jsonschema2java directory:
 
-    cd sonschema2java 
+    cd jonschema2java 
 
 Then build it with Maven:
 
