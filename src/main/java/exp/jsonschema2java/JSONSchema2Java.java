@@ -11,6 +11,7 @@ public class JSONSchema2Java
   {
     ObjectMapper mapper = new ObjectMapper();
     File addressJSONFile = new File(JSONSchema2Java.class.getClassLoader().getResource("./json/address.json").getFile());
+    File outputAddressFile = File.createTempFile("Address", "json");
 
     Address address1 = mapper.readValue("{\"post-office-box\": \"232\", \"extended-address\": \"an extended\",  " +
       "\"street-address\": \"123 Main St\", \"locality\": \"a locality\", " +
@@ -20,5 +21,7 @@ public class JSONSchema2Java
 
     System.out.println("Address: " + address1);
     System.out.println("Address: " + address2);
+
+    mapper.writeValue(outputAddressFile, address1);
   }
 }
